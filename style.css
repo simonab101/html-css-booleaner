@@ -1,25 +1,23 @@
 body{
   margin:0;
-  padding:0;
+  padding:7px;
 }
 
-main {
-  width: 60%;
+main{
   margin: auto;
 }
 
-/*-- sezione testa --*/
 header{
   height: 80px;
   background-color: #4ea0ff;
   background-image:url(img/pattern.png);
-  background-size: 250px;
-}
+  background-size: 325px;
 
-/*-- logo --*/
+}
+  /*-- logo --*/
 .logo{
   width: 60%;
-  margin: 10px auto;
+  
 }
 #logo{
   width: 200px;
@@ -27,7 +25,7 @@ header{
 }
 
 /*-- titolo --*/
-.title{
+.titolo{
   margin: 10px 0;
 }
 
@@ -36,7 +34,6 @@ h1{
   margin-bottom:5px;
 }
 
-/*-- crediti --*/
 .greytext{
   font-size: 15px;
   color: grey;
@@ -50,22 +47,22 @@ h1{
   font-size:10px;
 }
 
-/*-- immagini --*/
 .descrizione{
   font-size:10px;
 }
 
-/*-- testo --*/
 .highlighter{
   background-color:#FFFF00;
 }
 
 /*-- sezione tabella --*/
-tabella{
+.tabella{
   table-layout: fixed;
   width: 100%;
   border: 0px;
   border-collapse: collapse;
+  border-spacing: 0;
+  margin-top:20px;
 }
 th{
   color: white;
@@ -75,7 +72,6 @@ th{
   background-color: #b1e5f2;
 }
 
-/*-- bottoni immagini --*/
 .bottom-image-section{
   margin-top:20px;
 }
