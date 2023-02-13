@@ -1,0 +1,105 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+/*-- sezione testa --*/
+header{
+  height: 80px;
+  background-color: #4ea0ff;
+  background-image:url(img/pattern.png);
+  background-size: 250px;
+}
+
+/*-- logo --*/
+.logo{
+  width: 60%;
+  margin: 10px auto;
+}
+#logo{
+  width: 200px;
+  margin-top:30px;
+}
+
+/*-- titolo --*/
+.title{
+  margin: 10px 0;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom:5px;
+}
+
+/*-- crediti --*/
+.greytext{
+  font-size: 15px;
+  color: grey;
+  line-height: 100%;
+  margin:auto;
+}
+#autore{
+  color: #44b7e9;
+}
+#date{
+  font-size:10px;
+}
+
+/*-- immagini --*/
+.descrizione{
+  font-size:10px;
+}
+
+/*-- testo --*/
+.highlighter{
+  background-color:#FFFF00;
+}
+
+/*-- sezione tabella --*/
+tabella{
+  table-layout: fixed;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+}
+th{
+  color: white;
+  background-color: #20a9e5;
+}
+.blue{
+  background-color: #b1e5f2;
+}
+
+/*-- bottoni immagini --*/
+.bottom-image-section{
+  margin-top:20px;
+}
+
+.suggerimenti{
+  color: grey;
+  font-weight: bold;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  color: white;
+  margin: 10px 0px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#monitor{
+  background-image: url("img/monitor.jpg");
+  background-size:cover;
+}
+
+#graph{
+  background-image: url("img/graph.jpg");
+  background-size:cover;
+}
